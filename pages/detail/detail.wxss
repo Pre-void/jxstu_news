@@ -1,0 +1,38 @@
+/* pages/detail/detail.wxss */
+.container{
+  padding: 15rpx;
+  text-align: center;
+}
+/* 新闻标题 */
+.title{
+  font-size: 12pt;
+  line-height: 80rpx;
+}
+/* 新闻图片 */
+/*
+.poster image{
+  width: 100%;
+
+}
+*/
+/* 新闻正文*/
+.content{
+  text-align: left;
+  font-size: 10pt;
+  line-height: 60rpx;
+}
+/* 新闻日期 */
+.add_date{
+  font-size: 10pt;
+  text-align: right;
+  line-height: 30rpx;
+  margin-left: 350rpx;
+  margin-top: 20rpx;
+}
+/* 按钮*/
+button{
+  width: 250rpx;
+  height: 100rpx;
+  border: 1rpx solid #328eeb;
+  margin-top: 20rpx;
+}

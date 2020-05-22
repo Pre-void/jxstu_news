@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/admin/admin"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#328eeb",
+    "navigationBarTitleText": "今日新闻",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "color":"#000",
+    "selected":"#328eeb",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"images/index.png",
+        "selectedIconPath":"images/index_blue.png",
+        "text":"首页"
+      },
+      {
+        "pagePath": "pages/admin/admin",
+        "iconPath": "images/admin.png",
+        "selectedIconPath": "images/admin_blue.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
